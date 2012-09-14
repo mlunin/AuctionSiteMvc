@@ -1,0 +1,9 @@
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Persisten.Dummy.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Persisten.Dummy.pdb
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Domain.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Persistent.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Domain.pdb
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\bin\Debug\AuctionSiteMvc.Persistent.pdb
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\obj\Debug\ResolveAssemblyReference.cache
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\obj\Debug\AuctionSiteMvc.Persisten.Dummy.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persisten.Dummy\obj\Debug\AuctionSiteMvc.Persisten.Dummy.pdb

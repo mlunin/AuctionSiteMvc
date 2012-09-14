@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="927CBCDF-F03A-4542-A2A4-9F8FC090AF99" ModuleId="AuctionSiteMvc" />
+  <Module PersistentId="EA1B9384-35F3-499C-8902-B3A6CE813E06" ModuleId="AuctionSiteMvc.Domain" />
+  <Module PersistentId="7BD2F984-CB57-4517-A68E-1D357B826E8D" ModuleId="AuctionSiteMvc.Persistent" />
+  <Module PersistentId="E54D11A1-CE68-4D2A-984D-F45C11C042C9" ModuleId="AuctionSiteMvc.Persisten.Dummy" />
+</Modules>
