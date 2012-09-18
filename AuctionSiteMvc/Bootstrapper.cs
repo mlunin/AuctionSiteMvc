@@ -1,4 +1,5 @@
 using System.Web.Mvc;
+using AuctionSiteMvc.Persistent;
 using Microsoft.Practices.Unity;
 using Unity.Mvc3;
 
@@ -17,7 +18,7 @@ namespace AuctionSiteMvc
         {
             var container = new UnityContainer();
 
-            //container.RegisterType<IPostRepository, filling here>();            
+            container.RegisterType<IPostRepository, InMemoryPostRepository>();            
 
             return container;
         }

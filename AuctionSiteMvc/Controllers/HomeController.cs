@@ -1,18 +1,24 @@
 ﻿using System.Web.Mvc;
+using AuctionSiteMvc.Persistent;
 
 namespace AuctionSiteMvc.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
+        private readonly IPostRepository _repository;
+
+        public HomeController(IPostRepository repository)
         {
+            _repository = repository;
         }
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            var posts = _repository.List();
 
-            return View();
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            
+            return View(posts);
         }
 
         public ActionResult About()
