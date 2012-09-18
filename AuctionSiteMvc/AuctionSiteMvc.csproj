@@ -305,7 +305,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AuctionSiteMvc.Domain\AuctionSiteMvc.Domain.csproj">
+    <ProjectReference Include="..\AuctionSiteMvc.Domain\AuctionSiteMvc.Domain.csproj">
       <Project>{EA1B9384-35F3-499C-8902-B3A6CE813E06}</Project>
       <Name>AuctionSiteMvc.Domain</Name>
     </ProjectReference>

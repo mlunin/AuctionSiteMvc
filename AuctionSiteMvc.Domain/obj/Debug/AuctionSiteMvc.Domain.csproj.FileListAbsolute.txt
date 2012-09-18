@@ -1,0 +1,10 @@
+C:\CodeBase\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.dll
+C:\CodeBase\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.pdb
+C:\CodeBase\AuctionSiteMvc.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\CodeBase\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.dll
+C:\CodeBase\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.pdb
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.pdb
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.dll
+C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.pdb

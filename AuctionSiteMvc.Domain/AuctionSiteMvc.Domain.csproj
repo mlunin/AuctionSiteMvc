@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7BD2F984-CB57-4517-A68E-1D357B826E8D}</ProjectGuid>
+    <ProjectGuid>{EA1B9384-35F3-499C-8902-B3A6CE813E06}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AuctionSiteMvc.Persistent</RootNamespace>
-    <AssemblyName>AuctionSiteMvc.Persistent</AssemblyName>
+    <RootNamespace>AuctionSiteMvc.Domain</RootNamespace>
+    <AssemblyName>AuctionSiteMvc.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,15 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InMemoryPostRepository.cs" />
-    <Compile Include="IPostRepository.cs" />
+    <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AuctionSiteMvc.Domain\AuctionSiteMvc.Domain.csproj">
-      <Project>{EA1B9384-35F3-499C-8902-B3A6CE813E06}</Project>
-      <Name>AuctionSiteMvc.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
