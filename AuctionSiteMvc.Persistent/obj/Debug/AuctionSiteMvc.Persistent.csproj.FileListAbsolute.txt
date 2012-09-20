@@ -5,3 +5,10 @@ C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Do
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\ResolveAssemblyReference.cache
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\AuctionSiteMvc.Persistent.dll
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\AuctionSiteMvc.Persistent.pdb
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Persistent.dll
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Persistent.pdb
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Domain.dll
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Domain.pdb
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\AuctionSiteMvc.Persistent.csprojResolveAssemblyReference.cache
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\AuctionSiteMvc.Persistent.dll
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Persistent\obj\Debug\AuctionSiteMvc.Persistent.pdb

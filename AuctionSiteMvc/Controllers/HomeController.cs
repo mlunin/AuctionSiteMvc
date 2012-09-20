@@ -16,9 +16,9 @@ namespace AuctionSiteMvc.Controllers
         {
             var posts = _repository.List();
 
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-            
-            return View(posts);
+            ViewBag.Message = "Please see the posts list below :";
+            ViewBag.Posts = posts;
+            return View();
         }
 
         public ActionResult About()

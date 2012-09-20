@@ -8,3 +8,7 @@ C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\ResolveAssemblyReference.cache
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.dll
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.pdb
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.dll
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.pdb
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.dll
+C:\Users\mxlunin\Documents\GitHub\AuctionSiteMvc\AuctionSiteMvc.Domain\obj\Debug\AuctionSiteMvc.Domain.pdb
