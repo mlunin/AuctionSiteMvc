@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Post Detail</h2>
+
+
+<table>
+ <tr> 
+<th>Items</th>
+<th>Description</th>
+<th>Owner</th>
+<th>Created Date</th>
+<th>End Date</th>
+</tr>
+@foreach (var CurPost in @ViewBag.Posts)
+
+{
+    if (CurPost.Id == Convert.ToInt32(@ViewBag.Id))
+    {   <tr>     
+            <td>@CurPost.Title</td>
+            <td>@CurPost.Description</td>
+            <td>@CurPost.Owner</td>
+            <td>@CurPost.CreatedTime</td>
+            <td>@CurPost.EndTime</td>
+        </tr>
+    }
+}
+</table>
