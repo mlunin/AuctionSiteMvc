@@ -2,5 +2,7 @@
 *.swp
 *.cachr
 *.suo
+*.pdb
 .DS_Store
 public/uploads/
+_Resharper*.*
