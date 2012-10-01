@@ -6,3 +6,5 @@
 .DS_Store
 public/uploads/
 _Resharper*.*
+*/bin/Debug/*.*
+*/bin/Release/*.*
