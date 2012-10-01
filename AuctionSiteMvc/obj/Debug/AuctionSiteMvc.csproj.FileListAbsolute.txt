@@ -164,7 +164,6 @@ C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\WebMatrix.Data.dll
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\WebMatrix.WebData.dll
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\AuctionSiteMvc.Domain.pdb
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\AuctionSiteMvc.Persistent.pdb
-C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.ServiceLocation.xml
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.xml
 C:\CodeBase\test\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.Configuration.xml
