@@ -16,9 +16,7 @@ namespace AuctionSiteMvc.Controllers
         {
             var posts = _repository.List();
 
-            ViewBag.Message = "Please see the posts list below :";
-            ViewBag.Posts = posts;
-            return View();
+            return View(posts);
         }
 
         public ActionResult About()

@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{379CAF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSiteMvc.Domain", "AuctionSiteMvc.Domain\AuctionSiteMvc.Domain.csproj", "{EA1B9384-35F3-499C-8902-B3A6CE813E06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{70C7B96D-330E-4295-86CF-35DDA39F29AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,8 +39,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{927CBCDF-F03A-4542-A2A4-9F8FC090AF99} = {D4FAB470-1D74-4C01-B200-C3533F50E981}
-		{EA1B9384-35F3-499C-8902-B3A6CE813E06} = {379CAFFB-1963-4F85-B18B-C12F2327B4A2}
 		{7BD2F984-CB57-4517-A68E-1D357B826E8D} = {8ED9567A-3431-4197-9207-2F23359F2E57}
+		{EA1B9384-35F3-499C-8902-B3A6CE813E06} = {379CAFFB-1963-4F85-B18B-C12F2327B4A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35

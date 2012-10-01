@@ -1,4 +1,6 @@
 *~
 *.swp
+*.cachr
+*.suo
 .DS_Store
 public/uploads/
