@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61c5dff9-737e-45e1-a102-1eb12ee3ce14" name="clor@WPG01247 2012-10-09 19:41:19" runUser="OBS\clor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="clor_WPG01247 2012-10-09 19_41_19">
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.Configuration.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\SharpTestsEx.1.1.1\lib\SharpTestsEx.Mvc.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\AuctionSiteMvc\bin\AuctionSiteMvc.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\AuctionSiteMvc.Persistent\bin\Debug\AuctionSiteMvc.Persistent.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\Unity.Mvc3.1.2\lib\net40\Unity.Mvc3.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\AuctionSiteMvc.Domain\bin\Debug\AuctionSiteMvc.Domain.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\SharpTestsEx.1.1.1\lib\SharpTestsEx.dll" />
+      <DeploymentItem filename="D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-09T19:41:19.9958245-05:00" queuing="2012-10-09T19:41:21.4059051-05:00" start="2012-10-09T19:41:21.4659086-05:00" finish="2012-10-09T19:41:22.1139456-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_return_a_correct_post" storage="d:\github\auctionsitemvc\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="4111b64f-f37d-ce56-0a0e-881493b069e6">
+      <Execution id="dc8fc348-a3b9-46e3-872a-4fd878d6a3cd" />
+      <TestMethod codeBase="D:/GitHub/AuctionSiteMvc/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_edit_post_by_http_get, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_return_a_correct_post" />
+    </UnitTest>
+    <UnitTest name="It_should_call_repository_get_by_id" storage="d:\github\auctionsitemvc\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="8999f834-78da-a87d-a7dc-3ff7df0209f8">
+      <Execution id="0a258271-0588-433b-bd96-84b86659d28d" />
+      <TestMethod codeBase="D:/GitHub/AuctionSiteMvc/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_edit_post_by_http_get, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_call_repository_get_by_id" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4111b64f-f37d-ce56-0a0e-881493b069e6" executionId="dc8fc348-a3b9-46e3-872a-4fd878d6a3cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8999f834-78da-a87d-a7dc-3ff7df0209f8" executionId="0a258271-0588-433b-bd96-84b86659d28d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dc8fc348-a3b9-46e3-872a-4fd878d6a3cd" testId="4111b64f-f37d-ce56-0a0e-881493b069e6" testName="It_should_return_a_correct_post" computerName="WPG01247" duration="00:00:00.0734115" startTime="2012-10-09T19:41:21.5279121-05:00" endTime="2012-10-09T19:41:22.0699431-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc8fc348-a3b9-46e3-872a-4fd878d6a3cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_return_a_correct_post threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_return_a_correct_post() in D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\AuctionSiteMvc.Tests\When_edit_post_by_http_get.cs:line 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a258271-0588-433b-bd96-84b86659d28d" testId="8999f834-78da-a87d-a7dc-3ff7df0209f8" testName="It_should_call_repository_get_by_id" computerName="WPG01247" duration="00:00:00.0104124" startTime="2012-10-09T19:41:22.0719432-05:00" endTime="2012-10-09T19:41:22.0839439-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a258271-0588-433b-bd96-84b86659d28d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_call_repository_get_by_id threw exception: 
+Rhino.Mocks.Exceptions.ExpectationViolationException: IPostRepository.GetById(1874810084); Expected #1, Actual #0.</Message>
+          <StackTrace>    at Rhino.Mocks.RhinoMocksExtensions.AssertWasCalled[T](T mock, Action`1 action, Action`1 setupConstraints)
+   at Rhino.Mocks.RhinoMocksExtensions.AssertWasCalled[T](T mock, Func`2 action)
+   at AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_call_repository_get_by_id() in D:\GitHub\AuctionSiteMvc\AuctionSiteMvc\AuctionSiteMvc.Tests\When_edit_post_by_http_get.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
