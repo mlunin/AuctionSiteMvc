@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8901773b-54b1-4a12-91d2-d02be213a123" name="gchen@WPG01217 2012-10-11 16:05:26" runUser="OBS\gchen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gchen_WPG01217 2012-10-11 16_05_26" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-11T16:05:26.0150338-05:00" queuing="2012-10-11T16:05:26.2420468-05:00" start="2012-10-11T16:05:26.4750601-05:00" finish="2012-10-11T16:05:27.1871009-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_return_a_correct_post" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="4111b64f-f37d-ce56-0a0e-881493b069e6">
+      <Execution timeOut="1800000" id="fcd23077-35d4-48f7-88a1-263bd5875cf2" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_edit_post_by_http_get, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_return_a_correct_post" />
+    </UnitTest>
+    <UnitTest name="It_should_call_repository_get_by_id" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="8999f834-78da-a87d-a7dc-3ff7df0209f8">
+      <Execution timeOut="1800000" id="ddb78a9a-f376-4803-a821-edf242ade230" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_edit_post_by_http_get, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_call_repository_get_by_id" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8999f834-78da-a87d-a7dc-3ff7df0209f8" executionId="ddb78a9a-f376-4803-a821-edf242ade230" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4111b64f-f37d-ce56-0a0e-881493b069e6" executionId="fcd23077-35d4-48f7-88a1-263bd5875cf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ddb78a9a-f376-4803-a821-edf242ade230" testId="8999f834-78da-a87d-a7dc-3ff7df0209f8" testName="It_should_call_repository_get_by_id" computerName="WPG01217" duration="00:00:00.0173019" startTime="2012-10-11T16:05:26.6760716-05:00" endTime="2012-10-11T16:05:26.9950899-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddb78a9a-f376-4803-a821-edf242ade230">
+    </UnitTestResult>
+    <UnitTestResult executionId="fcd23077-35d4-48f7-88a1-263bd5875cf2" testId="4111b64f-f37d-ce56-0a0e-881493b069e6" testName="It_should_return_a_correct_post" computerName="WPG01217" duration="00:00:00.1233978" startTime="2012-10-11T16:05:26.9970900-05:00" endTime="2012-10-11T16:05:27.1260974-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcd23077-35d4-48f7-88a1-263bd5875cf2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_return_a_correct_post threw exception: 
+SharpTestsEx.AssertException: (null) Should Be Equal To AuctionSiteMvc.Domain.Post(of AuctionSiteMvc.Domain.Post).</Message>
+          <StackTrace>    at AuctionSiteMvc.Tests.When_edit_post_by_http_get.It_should_return_a_correct_post() in C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Tests\When_edit_post_by_http_get.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

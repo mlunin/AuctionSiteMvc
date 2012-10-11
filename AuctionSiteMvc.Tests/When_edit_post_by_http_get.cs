@@ -17,7 +17,7 @@ namespace AuctionSiteMvc.Tests
     {
         private static IPostRepository _repository;
         private static PostController Sut { get; set; }
-        protected static ViewResult Actual { get; set; }
+        protected static object Actual { get; set; }
         protected static int postId { get; set; }
         protected static Post ExpectedModel { get; set; }
 
@@ -25,23 +25,24 @@ namespace AuctionSiteMvc.Tests
         [ClassInitialize()]
         public static void Setup(TestContext testContext)
         {
-            // set a dumy post 
-            ExpectedModel = new Post(postId, "","","",DateTime.Now, DateTime.MinValue);
-
             // generate a mock repository
             _repository = MockRepository.GenerateStub<IPostRepository>();
-
-            // stub the repo to return a post when it is called GetById with a id is PostId
-            _repository.Stub(repo => repo.GetById(postId)).Return(ExpectedModel);
-
             // the subject under test
             Sut = new PostController(_repository);
 
             // a random id to test
             postId = new Random().Next();
 
+            // set a dumy post 
+            ExpectedModel = new Post(postId, "","","",DateTime.Now, DateTime.MinValue);
+
+ 
+            // stub the repo to return a post when it is called GetById with a id is PostId
+            _repository.Stub(repo => repo.GetById(postId)).Return(ExpectedModel);
+
+
             // the result returned by calling Edit to the controller
-            Actual = Sut.Edit(postId);
+            Actual = Sut.Edit(postId).Model;
         }
 
 
@@ -55,7 +56,7 @@ namespace AuctionSiteMvc.Tests
         [TestMethod()]
         public void It_should_return_a_correct_post()
         {
-            Actual.Model.Should().Be(ExpectedModel);
+            Actual.Should().Be(ExpectedModel);
         }
     }
 }

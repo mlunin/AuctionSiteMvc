@@ -23,7 +23,8 @@ namespace AuctionSiteMvc.Controllers
         [HttpGet]
         public ViewResult Edit(int postId)
         {
-            return null;
+            var post = _repository.GetById(postId);
+            return View(post);
         }
 
         [HttpPost]
