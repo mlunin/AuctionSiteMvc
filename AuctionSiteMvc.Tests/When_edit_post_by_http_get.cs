@@ -48,16 +48,14 @@ namespace AuctionSiteMvc.Tests
         [TestMethod()]
         public void It_should_call_repository_get_by_id()
         {
-           // _repository.AssertWasCalled(repo => repo.GetById(postId)); 
-            _repository.GetById(postId);
+            _repository.AssertWasCalled(repo => repo.GetById(postId)); 
 
         }
 
         [TestMethod()]
         public void It_should_return_a_correct_post()
         {
-           // Actual.Model.Should().Be(ExpectedModel);
-            Sut.Edit(postId); 
+            Actual.Model.Should().Be(ExpectedModel);
         }
     }
 }

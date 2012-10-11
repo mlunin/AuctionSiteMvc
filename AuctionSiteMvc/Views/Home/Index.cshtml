@@ -8,16 +8,16 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>"Please see the posts list below :"</h1>
+                <h1>"Bid and win! :"</h1>
             </hgroup>
-            <p> Please Click on the "View Description" link to see details </p>
+            <p> Click on the title to start. </p>
         </div>
     </section>
 }
 <ul>  
 @foreach (var post in @Model)
    {
-     <li> @post.Title @Html.ActionLink("Details", "../Post/Details", new { PostId = post.Id, })</li>  
+     <li>  @Html.ActionLink(post.Title, "../Post/Details", new { PostId = post.Id, })</li>  
    }  
 </ul>
 

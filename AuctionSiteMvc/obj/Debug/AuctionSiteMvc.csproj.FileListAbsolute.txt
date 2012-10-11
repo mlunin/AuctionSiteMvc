@@ -55,7 +55,6 @@ C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.ServiceLocatio
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.Configuration.dll
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.dll
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Unity.Mvc3.dll
-C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.ServiceLocation.xml
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.xml
 C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc\bin\Microsoft.Practices.Unity.Configuration.xml
