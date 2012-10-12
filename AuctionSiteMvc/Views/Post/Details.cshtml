@@ -1,14 +1,25 @@
 ﻿@using AuctionSiteMvc.Domain;
 @model Post
+    <a href="/Home" class="btn btn-link btn-small float-right">Back</a>
 
+    <a href="/Post/Edit/@Model.Id" class="btn btn-link btn-small float-right">Edit</a>
 <h2>@Model.Title</h2>
-<p>@Model.Description <p>
- <a href="/Post/Edit/@Model.Id" class="btn btn-primary btn-large">
-      Edit
-</a>
+<p>
+    <span class="text-info">@Model.CreatedTime.ToShortDateString()</span>
 
- <a href="/Home" class="btn btn-primary btn-large">
-      Back
-</a>
+    <span>Seller:</span>
+    <span class="text-info">@Model.Owner</span>
+    <span class="label label-info ">$@Model.Price</span>
+
+</p>
+
+
+
+<p>@Model.Description <p>
+
+<div class="span3">
+    <img src="/Images/@Model.Image" alt=""/>
+</div>
+
 @*@Html.ActionLink("Back", "../Home/Index")</i></li>  
 *@
