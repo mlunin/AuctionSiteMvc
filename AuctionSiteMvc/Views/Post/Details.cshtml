@@ -5,10 +5,14 @@
     <a href="/Post/Edit/@Model.Id" class="btn btn-link btn-small float-right">Edit</a>
 <h2>@Model.Title</h2>
 <p>
+    <span ><strong>Start From:</strong></span>
+
     <span class="text-info">@Model.CreatedTime.ToShortDateString()</span>
 
-    <span>Seller:</span>
+    <span><strong>Seller:</strong></span>
     <span class="text-info">@Model.Owner</span>
+    <span><strong>Price:</strong></span>
+
     <span class="label label-info ">$@Model.Price</span>
 
 </p>
