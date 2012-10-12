@@ -12,5 +12,6 @@ namespace AuctionSiteMvc.Persistent
         IEnumerable<Post> List();
 
         Post GetById(int postId);
+        Post Save(Post post);
     }
 }

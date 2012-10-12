@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="da406cf8-4dd3-4b49-8c1a-71a355147310" name="gchen@WPG01217 2012-10-12 10:03:32" runUser="OBS\gchen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gchen_WPG01217 2012-10-12 10_03_32" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-12T10:03:32.0921424-05:00" queuing="2012-10-12T10:03:32.3901595-05:00" start="2012-10-12T10:03:32.5781702-05:00" finish="2012-10-12T10:03:33.1482028-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_call_repository_save" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="e900a7d8-24d2-0c58-8756-a30d1dd6f1be">
+      <Execution timeOut="1800000" id="a0db7c6e-2e3e-4e6b-9ade-6f0b7d6dd753" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_call_repository_save" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e900a7d8-24d2-0c58-8756-a30d1dd6f1be" executionId="a0db7c6e-2e3e-4e6b-9ade-6f0b7d6dd753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a0db7c6e-2e3e-4e6b-9ade-6f0b7d6dd753" testId="e900a7d8-24d2-0c58-8756-a30d1dd6f1be" testName="It_should_call_repository_save" computerName="WPG01217" duration="00:00:00.0366702" startTime="2012-10-12T10:03:32.6971770-05:00" endTime="2012-10-12T10:03:33.0781988-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0db7c6e-2e3e-4e6b-9ade-6f0b7d6dd753">
+    </UnitTestResult>
+  </Results>
+</TestRun>

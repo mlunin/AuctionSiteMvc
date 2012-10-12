@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e8319764-cf80-4e47-8e80-2ea245f0c6fc" name="gchen@WPG01217 2012-10-12 09:40:57" runUser="OBS\gchen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gchen_WPG01217 2012-10-12 09_40_57" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-12T09:40:57.8666851-05:00" queuing="2012-10-12T09:40:58.1727027-05:00" start="2012-10-12T09:40:58.4667195-05:00" finish="2012-10-12T09:40:59.9328033-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_call_repository_save" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="e900a7d8-24d2-0c58-8756-a30d1dd6f1be">
+      <Execution timeOut="1800000" id="4da80d40-bca7-4645-a4f2-26e4e6249205" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_call_repository_save" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e900a7d8-24d2-0c58-8756-a30d1dd6f1be" executionId="4da80d40-bca7-4645-a4f2-26e4e6249205" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4da80d40-bca7-4645-a4f2-26e4e6249205" testId="e900a7d8-24d2-0c58-8756-a30d1dd6f1be" testName="It_should_call_repository_save" computerName="WPG01217" duration="00:00:00.1577299" startTime="2012-10-12T09:40:59.2357635-05:00" endTime="2012-10-12T09:40:59.8277973-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4da80d40-bca7-4645-a4f2-26e4e6249205">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AuctionSiteMvc.Tests.When_save_an_editted_post.It_should_call_repository_save threw exception: 
+Rhino.Mocks.Exceptions.ExpectationViolationException: IPostRepository.Save(AuctionSiteMvc.Domain.Post); Expected #1, Actual #0.</Message>
+          <StackTrace>    at Rhino.Mocks.RhinoMocksExtensions.AssertWasCalled[T](T mock, Action`1 action, Action`1 setupConstraints)
+   at Rhino.Mocks.RhinoMocksExtensions.AssertWasCalled[T](T mock, Func`2 action)
+   at AuctionSiteMvc.Tests.When_save_an_editted_post.It_should_call_repository_save() in C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Tests\When_save_an_editted_post.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

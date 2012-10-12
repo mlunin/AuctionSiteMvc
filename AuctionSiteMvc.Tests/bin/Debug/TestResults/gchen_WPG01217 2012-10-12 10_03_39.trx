@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af6032d4-6175-46a3-87cf-44f10a9a0298" name="gchen@WPG01217 2012-10-12 10:03:39" runUser="OBS\gchen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gchen_WPG01217 2012-10-12 10_03_39" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-12T10:03:39.4075608-05:00" queuing="2012-10-12T10:03:39.6225731-05:00" start="2012-10-12T10:03:39.7775820-05:00" finish="2012-10-12T10:03:40.3736161-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_reture_to_details" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="312dd9a3-8cbf-e874-5ac4-48549c03abc3">
+      <Execution timeOut="1800000" id="c22c1596-d384-4193-8ec9-6c08d4297b9e" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_reture_to_details" />
+    </UnitTest>
+    <UnitTest name="It_should_reture_to_details_of_correct_post" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="60f0edd9-cfbe-f135-41a8-c36f1491fc4f">
+      <Execution timeOut="1800000" id="b99bb034-c09a-4463-a6c5-180fc791d4b2" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_reture_to_details_of_correct_post" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="312dd9a3-8cbf-e874-5ac4-48549c03abc3" executionId="c22c1596-d384-4193-8ec9-6c08d4297b9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60f0edd9-cfbe-f135-41a8-c36f1491fc4f" executionId="b99bb034-c09a-4463-a6c5-180fc791d4b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c22c1596-d384-4193-8ec9-6c08d4297b9e" testId="312dd9a3-8cbf-e874-5ac4-48549c03abc3" testName="It_should_reture_to_details" computerName="WPG01217" duration="00:00:00.1272571" startTime="2012-10-12T10:03:39.9195901-05:00" endTime="2012-10-12T10:03:40.3036121-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c22c1596-d384-4193-8ec9-6c08d4297b9e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method AuctionSiteMvc.Tests.When_save_an_editted_post.It_should_reture_to_details threw exception: 
+SharpTestsEx.AssertException: "" Should Be Equal To "Details".
+Strings differ at position 1.
+
+Details
+^______
+</Message>
+          <StackTrace>    at AuctionSiteMvc.Tests.When_save_an_editted_post.It_should_reture_to_details() in C:\CodeBase\AuctionSiteMvc\AuctionSiteMvc.Tests\When_save_an_editted_post.cs:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b99bb034-c09a-4463-a6c5-180fc791d4b2" testId="60f0edd9-cfbe-f135-41a8-c36f1491fc4f" testName="It_should_reture_to_details_of_correct_post" computerName="WPG01217" duration="00:00:00.0057347" startTime="2012-10-12T10:03:40.3066123-05:00" endTime="2012-10-12T10:03:40.3136127-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b99bb034-c09a-4463-a6c5-180fc791d4b2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

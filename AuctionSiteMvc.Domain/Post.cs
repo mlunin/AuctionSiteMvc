@@ -15,7 +15,7 @@ namespace AuctionSiteMvc.Domain
             EndTime = endTime;
         }
 
-        public int Id { get; private set; }
+        public int? Id { get; private set; }
 
         public string Title { get; private set; }
 

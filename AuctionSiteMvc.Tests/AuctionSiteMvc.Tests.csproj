@@ -152,7 +152,8 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="When_edit_post_by_http_get.cs" />
+    <Compile Include="When_save_an_editted_post.cs" />
+    <Compile Include="When_request_edit_a_post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

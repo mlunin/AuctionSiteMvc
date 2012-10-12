@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0274ee52-35af-4e36-a425-cde5d8d9acf6" name="gchen@WPG01217 2012-10-12 10:05:33" runUser="OBS\gchen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="26a7ebc3-5616-42cd-a617-d2bf7b5dcf90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gchen_WPG01217 2012-10-12 10_05_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-12T10:05:33.5670904-05:00" queuing="2012-10-12T10:05:33.7741022-05:00" start="2012-10-12T10:05:33.9461121-05:00" finish="2012-10-12T10:05:34.4911432-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="It_should_reture_to_details" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="312dd9a3-8cbf-e874-5ac4-48549c03abc3">
+      <Execution timeOut="1800000" id="66bfe3b6-0686-4761-bd0e-e05eb9db6cbb" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_reture_to_details" />
+    </UnitTest>
+    <UnitTest name="It_should_reture_to_details_of_correct_post" storage="c:\codebase\auctionsitemvc\auctionsitemvc.tests\bin\debug\auctionsitemvc.tests.dll" id="60f0edd9-cfbe-f135-41a8-c36f1491fc4f">
+      <Execution timeOut="1800000" id="1796913a-0078-4cff-bda8-cbe534e8ccb4" />
+      <TestMethod codeBase="C:/CodeBase/AuctionSiteMvc/AuctionSiteMvc.Tests/bin/Debug/AuctionSiteMvc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSiteMvc.Tests.When_save_an_editted_post, AuctionSiteMvc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="It_should_reture_to_details_of_correct_post" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="312dd9a3-8cbf-e874-5ac4-48549c03abc3" executionId="66bfe3b6-0686-4761-bd0e-e05eb9db6cbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60f0edd9-cfbe-f135-41a8-c36f1491fc4f" executionId="1796913a-0078-4cff-bda8-cbe534e8ccb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="66bfe3b6-0686-4761-bd0e-e05eb9db6cbb" testId="312dd9a3-8cbf-e874-5ac4-48549c03abc3" testName="It_should_reture_to_details" computerName="WPG01217" duration="00:00:00.1014478" startTime="2012-10-12T10:05:34.0581185-05:00" endTime="2012-10-12T10:05:34.4201392-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66bfe3b6-0686-4761-bd0e-e05eb9db6cbb">
+    </UnitTestResult>
+    <UnitTestResult executionId="1796913a-0078-4cff-bda8-cbe534e8ccb4" testId="60f0edd9-cfbe-f135-41a8-c36f1491fc4f" testName="It_should_reture_to_details_of_correct_post" computerName="WPG01217" duration="00:00:00.0003854" startTime="2012-10-12T10:05:34.4261395-05:00" endTime="2012-10-12T10:05:34.4311398-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1796913a-0078-4cff-bda8-cbe534e8ccb4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

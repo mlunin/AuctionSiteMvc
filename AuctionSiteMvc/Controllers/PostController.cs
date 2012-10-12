@@ -28,9 +28,10 @@ namespace AuctionSiteMvc.Controllers
         }
 
         [HttpPost]
-        public ViewResult Edit(Post post)
+        public RedirectToRouteResult Edit(Post post)
         {
-            return null;
+                //save the post
+                // redirect to details action
         }
     }
 }
