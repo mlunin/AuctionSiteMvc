@@ -37,6 +37,7 @@ namespace AuctionSiteMvc.Tests
 
             // set a dumy post 
             ModelToSave = new Post(postId, "", "", "", DateTime.Now, DateTime.MinValue);
+
             ExpectedModel = new Post(postId, "saved", "", "", DateTime.Now, DateTime.MinValue);
 
 
@@ -53,7 +54,6 @@ namespace AuctionSiteMvc.Tests
         public void It_should_call_repository_save()
         {
             _repository.AssertWasCalled(repo => repo.Save(ModelToSave)); 
-
         }
 
         [TestMethod()]

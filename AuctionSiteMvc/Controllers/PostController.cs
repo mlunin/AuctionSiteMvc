@@ -32,6 +32,8 @@ namespace AuctionSiteMvc.Controllers
         {
                 //save the post
                 // redirect to details action
+
+            return RedirectToAction("actionname", new {postId = 0});
         }
     }
 }
