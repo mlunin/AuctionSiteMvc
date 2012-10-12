@@ -187,6 +187,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\glyphicons-halflings-white.png" />
+    <Content Include="Content\glyphicons-halflings.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -243,9 +249,20 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\product0-small.png" />
     <Content Include="Images\product0.png" />
+    <Content Include="Images\product1-small.jpg" />
+    <Content Include="Images\product1-small.png" />
+    <Content Include="Images\product1.jpg" />
     <Content Include="Images\product1.png" />
+    <Content Include="Images\product2-small.jpg" />
+    <Content Include="Images\product2-small.png" />
+    <Content Include="Images\product2.jpg" />
     <Content Include="Images\product2.png" />
+    <Content Include="Images\product3-small.jpg" />
+    <Content Include="Images\product3.jpg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -322,7 +339,7 @@
     <Content Include="Views\Post\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Post\View1.cshtml" />
+    <Content Include="Views\Post\Edit.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -14,9 +14,9 @@ namespace AuctionSiteMvc.Controllers
         }
 
         [HttpGet]
-        public ViewResult Details(int postId)
+        public ViewResult Details(int id)
         {
-            var post = _repository.GetById(postId);
+            var post = _repository.GetById(id);
             return View(post);
         }
 
@@ -30,10 +30,8 @@ namespace AuctionSiteMvc.Controllers
         [HttpPost]
         public RedirectToRouteResult Edit(Post post)
         {
-                //save the post
-                // redirect to details action
-
-            return RedirectToAction("actionname", new {postId = 0});
+            var p =_repository.Save(post);
+            return RedirectToAction("Details", new { postId = p.Id});
         }
     }
 }

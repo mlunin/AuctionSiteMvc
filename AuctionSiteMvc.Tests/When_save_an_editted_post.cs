@@ -36,9 +36,9 @@ namespace AuctionSiteMvc.Tests
             postId = new Random().Next();
 
             // set a dumy post 
-            ModelToSave = new Post(postId, "", "", "", DateTime.Now, DateTime.MinValue);
+            ModelToSave = new Post(postId, "", "", "",0,"", DateTime.Now, DateTime.MinValue);
 
-            ExpectedModel = new Post(postId, "saved", "", "", DateTime.Now, DateTime.MinValue);
+            ExpectedModel = new Post(postId, "saved", "", "",0, "",DateTime.Now, DateTime.MinValue);
 
 
             // stub the repo to return a post when it is called GetById with a id is PostId

@@ -2,22 +2,34 @@
 @model  IEnumerable<Post>
 
 @{
-    ViewBag.Title = "Post Main Page";
+    ViewBag.Title = "Online Auction Site";
 }
 @section featured {
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>"Bid and win! :"</h1>
+                <h1>Online Auction Site </h1>
             </hgroup>
-            <p> Click on the title to start. </p>
+
+                <h2>Bid and Win!</h2>
+            <p>.Net Study Group help you sell and buy stuffs by just a click. All for Onliners!  </p>
         </div>
     </section>
 }
-<ul>  
+
+<ul class="thumbnails">  
 @foreach (var post in @Model)
    {
-     <li>  @Html.ActionLink(post.Title, "../Post/Details", new { PostId = post.Id, })</li>  
+       <li class="span3">
+        <div class="thumbnail">
+            <a href="/Post/Details/@post.Id">
+                <h4>@post.Title</h4>
+                <span class="float-right">$@post.Price</span>
+
+                <img src="/Images/@post.Image" alt="">
+            </a>
+        </div>
+      </li>  
    }  
 </ul>
 
