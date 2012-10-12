@@ -8,11 +8,10 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>Online Auction Site </h1>
+                <h1><b>Online Auction Site </b></h1>
             </hgroup>
-
-                <h2>Bid and Win!</h2>
-            <p>.Net Study Group help you sell and buy stuffs by just a click. All for Onliners!  </p>
+            <h3>Bid and Win!</h3>
+            <p >.Net Study Group help you sell and buy stuffs by just a click. All for Onliners!  </p>
         </div>
     </section>
 }
@@ -24,9 +23,10 @@
         <div class="thumbnail">
             <a href="/Post/Details/@post.Id">
                 <h4>@post.Title</h4>
-                <span class="float-right">$@post.Price</span>
+                <span class="text-info">@post.CreatedTime.ToShortDateString()</span>
+                <span class="label label-info float-right">$@post.Price</span>
 
-                <img src="/Images/@post.Image" alt="">
+                <img src="/Images/@post.Image" alt=""/>
             </a>
         </div>
       </li>  

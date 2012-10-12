@@ -3,4 +3,12 @@
 
 <h2>@Model.Title</h2>
 <p>@Model.Description <p>
-@Html.ActionLink("Back", "../Home/Index")</i></li>  
+ <a href="/Post/Edit/@Model.Id" class="btn btn-primary btn-large">
+      Edit
+</a>
+
+ <a href="/Home" class="btn btn-primary btn-large">
+      Back
+</a>
+@*@Html.ActionLink("Back", "../Home/Index")</i></li>  
+*@
